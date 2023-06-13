@@ -21,7 +21,7 @@ header{
     align-items: center;
 }
 .menu a{
-    font-size: 16px;
+    font-size: 23px;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -72,7 +72,7 @@ header{
     align-items: center;
 }
 #plantas div{
-    padding:30px;
+    padding:0px;
 }
 #plantas div h4{
     color: black;
@@ -81,6 +81,39 @@ header{
 }
 #plantas div p{
     color:#000;
+    font-size: 18px;
+}
+#nueva{
+    display: flex;
+}
+.flex{
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px;
+    box-shadow: gray;
+    border-radius: 15px 15px 15px 15px;
+}
+.titulo{
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(146, 63, 63);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.cuerpo{
+    padding: 8px;
+}
+.foot{
+    border-radius: 0 0 15px 15px;
+    padding: 8px;
+    background-color: rgb(146, 63, 63);;
     font-size: 18px;
 }
 .botonsabermas{
@@ -98,13 +131,21 @@ header{
     color: black;
 }
 #iconos{
-    padding: 0px 50px;
+    padding: 10px 50px;
     background: rgba(77, 77, 92, 0.6);
 }
-
+#iconos p{
+    padding: 20px;
+    font-size: 18px;
+}
 .botoniconos{
     text-align: center;
     padding-bottom: 50px;
+}
+.pie p{
+    padding: 20px;
+    background-color: #4D4D5C;
+    font-size: 20px;
 }
 
 /*RESPONSIVE*/
@@ -123,3 +164,4 @@ header{
         transition:0.8s;
     }
 }
+
